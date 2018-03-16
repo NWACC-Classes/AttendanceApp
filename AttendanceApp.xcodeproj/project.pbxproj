@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		475422BF205C267600DEE540 /* NamedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475422BE205C267600DEE540 /* NamedConstants.swift */; };
 		475640FC20333E6800E70E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475640FB20333E6800E70E5F /* AppDelegate.swift */; };
 		475640FE20333E6800E70E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475640FD20333E6800E70E5F /* ViewController.swift */; };
 		4756410120333E6800E70E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475640FF20333E6800E70E5F /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		475422BE205C267600DEE540 /* NamedConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedConstants.swift; sourceTree = "<group>"; };
 		475640F820333E6800E70E5F /* AttendanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475640FB20333E6800E70E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475640FD20333E6800E70E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				4756410220333E6800E70E5F /* Assets.xcassets */,
 				4756410420333E6800E70E5F /* LaunchScreen.storyboard */,
 				4756410720333E6800E70E5F /* Info.plist */,
+				475422BE205C267600DEE540 /* NamedConstants.swift */,
 			);
 			path = AttendanceApp;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				47CF9909204EEE3F007FA855 /* PeopleViewController.swift in Sources */,
 				47CF990120485B4F007FA855 /* SetupViewController.swift in Sources */,
 				47CF98FF20485272007FA855 /* LoginViewController.swift in Sources */,
+				475422BF205C267600DEE540 /* NamedConstants.swift in Sources */,
 				475640FE20333E6800E70E5F /* ViewController.swift in Sources */,
 				47CF990D204EEE60007FA855 /* PreferencesViewController.swift in Sources */,
 				475640FC20333E6800E70E5F /* AppDelegate.swift in Sources */,
