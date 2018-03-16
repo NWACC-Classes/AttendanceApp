@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "830cfa69f3c01ad14599e85d4f95aa83"
+build_time: [1521126444, 52552000]
+inputs:
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/ReportsViewController.swift": [1520350733, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/PeopleViewController.swift": [1520350911, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/SetupViewController.swift": [1519920079, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/LoginViewController.swift": [1519917810, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/ViewController.swift": [1518536424, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/PreferencesViewController.swift": [1520350944, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/AppDelegate.swift": [1521126443, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/MainViewController.swift": [1520351917, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/AttendanceViewController.swift": [1520350593, 0]
+  "/Users/abaker/Dropbox/Xcode Projects/AttendanceApp/AttendanceApp/EventsViewController.swift": [1520350929, 0]

@@ -32,4 +32,6 @@ class PeopleViewController: UIViewController {
     }
     */
 
+    @IBAction func SetupTapped(_ sender: UIButton) {
+    }
 }
