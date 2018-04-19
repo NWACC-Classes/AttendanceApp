@@ -2,11 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>application-identifier</key>
-	<string>UD3L3J9M7V.edu.nwacc.AttendanceApp</string>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>UD3L3J9M7V.edu.nwacc.AttendanceApp</string>
-	</array>
+	<key>com.apple.security.get-task-allow</key>
+	<true/>
 </dict>
 </plist>

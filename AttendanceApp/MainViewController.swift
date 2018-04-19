@@ -13,7 +13,6 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         self.navigationItem.title = "Main";
     }
 
@@ -22,7 +21,31 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // Action Methods
+    
+    @IBAction func RecordAttendanceButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toAttendance", sender: self)
+    }
+    
+    @IBAction func GenerateReportsButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toReports", sender: self)
+    }
+    
+    @IBAction func PeopleButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toPeople", sender: self)
+    }
+    
+    @IBAction func EventsButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toEvents", sender: self)
+    }
+    
+    @IBAction func SettingsButtonTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toSettings", sender: self)
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
