@@ -21,6 +21,10 @@
 		47CF9909204EEE3F007FA855 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF9908204EEE3F007FA855 /* PeopleViewController.swift */; };
 		47CF990B204EEE51007FA855 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF990A204EEE51007FA855 /* EventsViewController.swift */; };
 		47CF990D204EEE60007FA855 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF990C204EEE60007FA855 /* PreferencesViewController.swift */; };
+		8D0C091F208835CD00CC90EA /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C091E208835CD00CC90EA /* PeopleTableViewController.swift */; };
+		8D0C0921208835E600CC90EA /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C0920208835E600CC90EA /* AddContactsViewController.swift */; };
+		8D0C09232088373A00CC90EA /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C09222088373A00CC90EA /* People.swift */; };
+		8D0C09252088439000CC90EA /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C09242088439000CC90EA /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		47CF9908204EEE3F007FA855 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		47CF990A204EEE51007FA855 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		47CF990C204EEE60007FA855 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		8D0C091E208835CD00CC90EA /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		8D0C0920208835E600CC90EA /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		8D0C09222088373A00CC90EA /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		8D0C09242088439000CC90EA /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +85,6 @@
 				475640FF20333E6800E70E5F /* Main.storyboard */,
 				47CF990A204EEE51007FA855 /* EventsViewController.swift */,
 				47CF990C204EEE60007FA855 /* PreferencesViewController.swift */,
-				47CF9908204EEE3F007FA855 /* PeopleViewController.swift */,
 				47CF9906204EED8E007FA855 /* ReportsViewController.swift */,
 				47CF9904204EED02007FA855 /* AttendanceViewController.swift */,
 				47CF9902204EEB82007FA855 /* MainViewController.swift */,
@@ -87,8 +94,21 @@
 				4756410420333E6800E70E5F /* LaunchScreen.storyboard */,
 				4756410720333E6800E70E5F /* Info.plist */,
 				475422BE205C267600DEE540 /* NamedConstants.swift */,
+				8D0C091D20882EF000CC90EA /* People Data */,
 			);
 			path = AttendanceApp;
+			sourceTree = "<group>";
+		};
+		8D0C091D20882EF000CC90EA /* People Data */ = {
+			isa = PBXGroup;
+			children = (
+				47CF9908204EEE3F007FA855 /* PeopleViewController.swift */,
+				8D0C091E208835CD00CC90EA /* PeopleTableViewController.swift */,
+				8D0C0920208835E600CC90EA /* AddContactsViewController.swift */,
+				8D0C09242088439000CC90EA /* ContactDetailViewController.swift */,
+				8D0C09222088373A00CC90EA /* People.swift */,
+			);
+			path = "People Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,15 +184,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				47CF9907204EED8E007FA855 /* ReportsViewController.swift in Sources */,
+				8D0C09252088439000CC90EA /* ContactDetailViewController.swift in Sources */,
 				47CF9909204EEE3F007FA855 /* PeopleViewController.swift in Sources */,
+				8D0C0921208835E600CC90EA /* AddContactsViewController.swift in Sources */,
 				47CF990120485B4F007FA855 /* SetupViewController.swift in Sources */,
 				47CF98FF20485272007FA855 /* LoginViewController.swift in Sources */,
 				475422BF205C267600DEE540 /* NamedConstants.swift in Sources */,
+				8D0C09232088373A00CC90EA /* People.swift in Sources */,
 				475640FE20333E6800E70E5F /* ViewController.swift in Sources */,
 				47CF990D204EEE60007FA855 /* PreferencesViewController.swift in Sources */,
 				475640FC20333E6800E70E5F /* AppDelegate.swift in Sources */,
 				47CF9903204EEB82007FA855 /* MainViewController.swift in Sources */,
 				47CF9905204EED02007FA855 /* AttendanceViewController.swift in Sources */,
+				8D0C091F208835CD00CC90EA /* PeopleTableViewController.swift in Sources */,
 				47CF990B204EEE51007FA855 /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
