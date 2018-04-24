@@ -709,10 +709,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IUO-vf-YNp">
-                                <rect key="frame" x="8" y="135" width="752" height="881"/>
+                                <rect key="frame" x="8" y="135" width="752" height="848"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="JPB-4L-cGc">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="memberListingCell" id="JPB-4L-cGc">
                                         <rect key="frame" x="0.0" y="28" width="752" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JPB-4L-cGc" id="YWD-9H-91L">
@@ -721,12 +721,16 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXL-lL-ryB">
                                                     <rect key="frame" x="658" y="0.0" width="94" height="43.5"/>
-                                                    <state key="normal" title="Presence"/>
+                                                    <color key="backgroundColor" red="0.94509803920000002" green="0.92549019610000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Absent">
+                                                        <color key="titleColor" red="0.20000000000000001" green="0.094117647060000004" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Member Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuL-w6-ynG">
                                                     <rect key="frame" x="0.0" y="0.0" width="658" height="43"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="backgroundColor" red="0.94509803921568625" green="0.92549019607843142" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <color key="textColor" red="0.20000000000000001" green="0.094117647060000004" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -735,6 +739,8 @@
                                                 <constraint firstItem="GuL-w6-ynG" firstAttribute="leading" secondItem="YWD-9H-91L" secondAttribute="leading" id="5D6-bA-9fA"/>
                                                 <constraint firstAttribute="bottom" secondItem="GuL-w6-ynG" secondAttribute="bottom" id="J5P-85-2Pn"/>
                                                 <constraint firstAttribute="trailing" secondItem="TXL-lL-ryB" secondAttribute="trailing" id="Q9K-ye-MJF"/>
+                                                <constraint firstItem="TXL-lL-ryB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YWD-9H-91L" secondAttribute="leading" constant="20" symbolic="YES" id="XsE-OZ-Ux4"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GuL-w6-ynG" secondAttribute="trailing" constant="20" symbolic="YES" id="cpA-M3-sA4"/>
                                                 <constraint firstItem="GuL-w6-ynG" firstAttribute="top" secondItem="YWD-9H-91L" secondAttribute="top" id="eEn-0p-jaH"/>
                                                 <constraint firstItem="GuL-w6-ynG" firstAttribute="width" secondItem="YWD-9H-91L" secondAttribute="width" multiplier="7:8" id="i0w-5z-U9H"/>
                                                 <constraint firstItem="TXL-lL-ryB" firstAttribute="width" secondItem="YWD-9H-91L" secondAttribute="width" multiplier="1:8" id="kqM-I6-6hR"/>
@@ -744,16 +750,37 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="z0a-fg-XVw">
+                                <rect key="frame" x="0.0" y="983" width="768" height="41"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bnl-9k-GJB">
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="Exit without Saving">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.094117647060000004" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XT9-qc-wAr">
+                                        <rect key="frame" x="384" y="0.0" width="384" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <state key="normal" title="Save and Exit">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.094117647060000004" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.82982533039999995" green="0.81619434310000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="IUO-vf-YNp" firstAttribute="leading" secondItem="lrP-LS-7Qa" secondAttribute="leading" constant="8" id="08I-Du-TpX"/>
                             <constraint firstItem="IUO-vf-YNp" firstAttribute="top" secondItem="mCt-83-u3U" secondAttribute="bottom" constant="8" id="FK1-za-qQn"/>
+                            <constraint firstItem="z0a-fg-XVw" firstAttribute="top" secondItem="IUO-vf-YNp" secondAttribute="bottom" id="L4t-1k-apT"/>
+                            <constraint firstItem="lrP-LS-7Qa" firstAttribute="trailing" secondItem="z0a-fg-XVw" secondAttribute="trailing" id="OPj-HO-L2H"/>
+                            <constraint firstItem="z0a-fg-XVw" firstAttribute="leading" secondItem="lrP-LS-7Qa" secondAttribute="leading" id="OWV-FO-DD9"/>
                             <constraint firstItem="mCt-83-u3U" firstAttribute="top" secondItem="lrP-LS-7Qa" secondAttribute="top" constant="20" id="Thl-G2-WDS"/>
                             <constraint firstItem="mCt-83-u3U" firstAttribute="leading" secondItem="lrP-LS-7Qa" secondAttribute="leading" constant="20" id="bIg-s8-Uaq"/>
-                            <constraint firstItem="IUO-vf-YNp" firstAttribute="top" secondItem="mCt-83-u3U" secondAttribute="bottom" constant="8" id="cVS-ul-R3y"/>
                             <constraint firstItem="IUO-vf-YNp" firstAttribute="centerX" secondItem="b5e-xG-ToS" secondAttribute="centerX" id="hSg-zV-5mj"/>
-                            <constraint firstItem="lrP-LS-7Qa" firstAttribute="bottom" secondItem="IUO-vf-YNp" secondAttribute="bottom" constant="8" id="hn6-nk-g3W"/>
+                            <constraint firstItem="lrP-LS-7Qa" firstAttribute="bottom" secondItem="z0a-fg-XVw" secondAttribute="bottom" id="hn6-nk-g3W"/>
                             <constraint firstItem="lrP-LS-7Qa" firstAttribute="trailing" secondItem="mCt-83-u3U" secondAttribute="trailing" constant="20" id="uTc-Gr-H6o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lrP-LS-7Qa"/>
