@@ -28,6 +28,21 @@ struct user_meetingTableRow {
     var isChanged: Bool
 }
 
+struct meetingTableRow {
+    var id: Int
+    var description: String
+    var status: String
+    var title: String
+    var location: String
+    var startTime: Date
+    var endTime: Date
+    var createdTime: Date
+    var createdBy: Int
+    var lastModifiedTime: Date
+    var lastModifiedBy: Int
+    var isChanged: Bool
+}
+
 //Other structs will follow the same pattern.
 //The control layer will contain functions that return arrays of these [tableName]TableRow structs containing the data from the table. When creating these structs, the function will set isChanged to false.
 //The control layer will also contain functions that accept arrays of the above configuration as parameters, and then update the database tables whenever the isChanged value is true.
