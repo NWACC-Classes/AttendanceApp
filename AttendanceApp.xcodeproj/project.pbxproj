@@ -25,7 +25,6 @@
 		8D0C0921208835E600CC90EA /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C0920208835E600CC90EA /* AddContactsViewController.swift */; };
 		8D0C09232088373A00CC90EA /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C09222088373A00CC90EA /* People.swift */; };
 		8D0C09252088439000CC90EA /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C09242088439000CC90EA /* ContactDetailViewController.swift */; };
-		D4AE9B622091F9BF006D6676 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE9B612091F9BF006D6676 /* TableData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		8D0C0920208835E600CC90EA /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
 		8D0C09222088373A00CC90EA /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		8D0C09242088439000CC90EA /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
-		D4AE9B612091F9BF006D6676 /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 		475640EF20333E6700E70E5F = {
 			isa = PBXGroup;
 			children = (
-				D4AE9B612091F9BF006D6676 /* TableData.swift */,
 				475640FA20333E6800E70E5F /* AttendanceApp */,
 				475640F920333E6800E70E5F /* Products */,
 			);
@@ -198,7 +195,6 @@
 				47CF990D204EEE60007FA855 /* PreferencesViewController.swift in Sources */,
 				475640FC20333E6800E70E5F /* AppDelegate.swift in Sources */,
 				47CF9903204EEB82007FA855 /* MainViewController.swift in Sources */,
-				D4AE9B622091F9BF006D6676 /* TableData.swift in Sources */,
 				47CF9905204EED02007FA855 /* AttendanceViewController.swift in Sources */,
 				8D0C091F208835CD00CC90EA /* PeopleTableViewController.swift in Sources */,
 				47CF990B204EEE51007FA855 /* EventsViewController.swift in Sources */,
