@@ -95,12 +95,7 @@
 		475640FA20333E6800E70E5F /* AttendanceApp */ = {
 			isa = PBXGroup;
 			children = (
-				D4AE9B692098AFA9006D6676 /* Connector.swift */,
-				D4AE9B6B2098AFAC006D6676 /* User.swift */,
-				D4AE9B732098B01E006D6676 /* Group.swift */,
-				D4AE9B6D2098AFEE006D6676 /* Meeting.swift */,
-				D4AE9B6F2098AFFC006D6676 /* UserMeeting.swift */,
-				D4AE9B712098B00A006D6676 /* GroupUsers.swift */,
+				D4AE9B752098B38C006D6676 /* Connectors */,
 				475640FB20333E6800E70E5F /* AppDelegate.swift */,
 				475640FD20333E6800E70E5F /* ViewController.swift */,
 				475640FF20333E6800E70E5F /* Main.storyboard */,
@@ -130,6 +125,19 @@
 				8D0C09222088373A00CC90EA /* People.swift */,
 			);
 			path = "People Data";
+			sourceTree = "<group>";
+		};
+		D4AE9B752098B38C006D6676 /* Connectors */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE9B692098AFA9006D6676 /* Connector.swift */,
+				D4AE9B6B2098AFAC006D6676 /* User.swift */,
+				D4AE9B732098B01E006D6676 /* Group.swift */,
+				D4AE9B6D2098AFEE006D6676 /* Meeting.swift */,
+				D4AE9B6F2098AFFC006D6676 /* UserMeeting.swift */,
+				D4AE9B712098B00A006D6676 /* GroupUsers.swift */,
+			);
+			path = Connectors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

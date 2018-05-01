@@ -15,7 +15,7 @@ class Group : Connector {
     var description     : String
     
     override init() {
-        self.id           =  0
+        self.id           = 0
         self.name         = ""
         self.description  = ""
     }

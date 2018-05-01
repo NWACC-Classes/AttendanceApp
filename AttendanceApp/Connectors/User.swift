@@ -20,7 +20,7 @@ class User : Connector {
     var documentID      : Int
     
     override init() {
-        self.id           =  0
+        self.id           = 0
         self.name         = ""
         self.email        = ""
         self.phone        = ""
