@@ -701,6 +701,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVc-Wu-846">
                                                 <rect key="frame" x="619" y="6.5" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="SwitchOneChange:" destination="0KF-xv-yRT" eventType="valueChanged" id="2O3-D4-0xL"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -715,6 +718,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oHs-nh-hdH">
                                                 <rect key="frame" x="619" y="6.5" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="SwitchTwoChange:" destination="0KF-xv-yRT" eventType="valueChanged" id="Ykn-Ri-K1W"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -729,6 +735,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cW7-gM-B02">
                                                 <rect key="frame" x="619" y="6.5" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="SwitchThreeChange:" destination="0KF-xv-yRT" eventType="valueChanged" id="1w0-VW-A4W"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -743,6 +752,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSH-It-gma">
                                                 <rect key="frame" x="619" y="6.5" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="SwitchFourChange:" destination="0KF-xv-yRT" eventType="valueChanged" id="pU8-zq-3GJ"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -775,6 +787,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HPQ-kK-QfF"/>
                     </view>
+                    <connections>
+                        <outlet property="SwitchFour" destination="NSH-It-gma" id="jIn-Or-NgW"/>
+                        <outlet property="SwitchOne" destination="jVc-Wu-846" id="BCK-vr-j2L"/>
+                        <outlet property="SwitchThree" destination="cW7-gM-B02" id="moJ-Yn-aV2"/>
+                        <outlet property="SwitchTwo" destination="oHs-nh-hdH" id="evh-OG-y3j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Yh-5u-aKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="Yvj-tk-8Lu" userLabel="Exit" sceneMemberID="exit"/>
