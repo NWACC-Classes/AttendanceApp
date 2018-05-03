@@ -1,0 +1,15 @@
+This is an example of how to perform operations to the Webserver.
+
+The idea is to use the Class Conector, which should be implemented on every Model Classes, to create, update or select 
+any item into the database using the PHP Webserver.
+
+How to use it?
+ 1. Implement the Connector class to the desired model (" class User : Connector { ... ")
+ 2. Create an instance of that model (" var _user = User(); ")
+ 3. Set the values (" _user.name  = "Pedro" ")
+ 4. Call the for the desired operation:
+    save()  :    ("  _user.save(); ")                              to insert a new register;  or 
+    update():    ("_user.update(idName: "id", idValue: "1")" ) ")  to update a existent item; or
+    load()  :    ("_user.load(idName: "1" , idValue: "1")")        to select all items;       or
+    load()  :    ("_user.load(idName: "id", idValue: "1")")        to select a specific item (id equals to 1).
+

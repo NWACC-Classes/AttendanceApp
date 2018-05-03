@@ -21,7 +21,25 @@ class PreferencesViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBOutlet weak var SwitchOne: UISwitch!
+    @IBOutlet weak var SwitchTwo: UISwitch!
+    @IBOutlet weak var SwitchThree: UISwitch!
+    @IBOutlet weak var SwitchFour: UISwitch!
+    
+    @IBAction func SwitchOneChange(_ sender: UISwitch) {
+    }
+    
+    
+    @IBAction func SwitchTwoChange(_ sender: UISwitch) {
+    }
+    
+    
+    @IBAction func SwitchThreeChange(_ sender: UISwitch) {
+    }
+    
+    @IBAction func SwitchFourChange(_ sender: UISwitch) {
+    }
+    
     /*
     // MARK: - Navigation
 

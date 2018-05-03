@@ -15,6 +15,10 @@ class LoginViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func unwindToLogin(unwindSegue : UIStoryboardSegue){
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

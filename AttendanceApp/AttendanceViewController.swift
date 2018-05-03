@@ -10,6 +10,8 @@ import UIKit
 
 class AttendanceViewController: UIViewController {
 
+    var userArray: [(User, Bool)] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
